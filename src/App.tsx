@@ -38,18 +38,18 @@ function App() {
   const [tasksObj, setTasksObj] = useState({
     [todoListId1]: [
       { id: v1(), title: "HTML", isDone: true },
-      { id: v1(), title: "CSS", isDone: true },
+      { id: v1(), title: "CSS", isDone: false },
       { id: v1(), title: "JS", isDone: true },
       { id: v1(), title: "React", isDone: false },
-      { id: v1(), title: "Redux", isDone: false },
-      { id: v1(), title: "Rest API", isDone: false },
+      { id: v1(), title: "Redux", isDone: true },
+      { id: v1(), title: "Rest API", isDone: true },
     ],
     [todoListId2]: [
       { id: v1(), title: "Milk", isDone: true },
       { id: v1(), title: "BradP", isDone: true },
-      { id: v1(), title: "Snacks", isDone: false },
+      { id: v1(), title: "Snacks", isDone: true },
       { id: v1(), title: "IceCream", isDone: false },
-      { id: v1(), title: "Sparkling Water", isDone: false },
+      { id: v1(), title: "Sparkling Water", isDone: true },
     ],
   });
 
