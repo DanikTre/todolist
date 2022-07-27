@@ -1,6 +1,6 @@
 {
-  "name": "it-incubator-todolist-ts",
-  "homepage": "https://Alex-Kiosa.github.io/todolist/",
+  "name": "todolist",
+  "homepage": "https://DanikTre.github.io/todolist",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
